@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Abadental.com</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Tipografia (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <!-- CSS only -->
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+
+    <header id="inicio">
+      <nav>
+        <img class="logo" src="images/logo-semi.svg" alt="" />
+        <div class="menu"></div>
+        <ul>
+          <li><a href="#inicio" class="active">INICIO</a></li>
+          <li><a href="#nosotros">NOSOTROS</a></li>
+          <li><a href="#servicios">SERVICIOS</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <div class="text">
+        <p>B I E N V E N I D O</p>
+        <small>Proteje tu sonrisa, sonreír es parte de tí</small>
+      </div>
+      <div class="wave">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M-1.13,34.83 C180.02,-38.20 279.90,210.48 505.64,94.03 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <!-- JS menu despegable (responsive)-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $(".menu").toggleClass("active");
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
+
+    <!-- nosotros -->
+
+    <h2 id="nosotros">Sobre nosostros</h2>
+    <section id="nos">
+      <div class="mi-vi">
+        <div class="text-nosotros">
+          <div class="mision">
+            <img src="images/star.png" alt="" /><br />
+            <br />
+            <p>M I S I Ó N</p>
+            <br />
+            <p>
+              «Somos una organización enfocada al logro de una práctica dental
+              con mayor eficacia y eficiencia logrando así la salud de los
+              pacientes a través del manejo de la más alta tecnología, personal
+              capacitado y una cultura de prevención como base primordial de una
+              buena calidad de vida.»
+            </p>
+          </div>
+          <div class="mision">
+            <img src="images/ojo.png" alt="" /><br />
+            <br />
+            <p>V I S I Ó N</p>
+            <br />
+            <p>
+              «Somos una organización que pretende ser un referente a seguir
+              dentro del sector de la odontología, por la calidad de su trabajo
+              y por el trato humano.Para ello hacemos especial hincapié en el
+              trato preferente a nuestros pacientes, poniendo todo nuestro saber
+              para solucionar problemas bucomentales»
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h2>Nuestros artículos</h2>
+
+    <div class="logo2"><img src="images/logo-color.svg" alt="" /><br /></div>
+    <div class="video">
+      <iframe
+        width="1450"
+        height="515"
+        src="https://www.youtube.com/embed/PHy9GtnXE8U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <!-- articulos -->
+
+    <div class="blog-card">
+      <div class="meta">
+        <div
+          class="photo"
+          style="background-image: url(images/azucar.jpg)"
+        ></div>
+        <ul class="details">
+          <li class="author"><a href="#">Abadental</a></li>
+          <li class="date">nov. 19, 2021</li>
+          <li class="tags">
+            <ul>
+              <li><a href="#">Leer más</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>El efecto del azúcar en los dientes</h1>
+        <h2>ARTICULOS SOBRE ODONTOLOGIA</h2>
+        <p>
+          “A nadie le amarga un dulce”. Seguro que has escuchado ese dicho más
+          de una vez. Pero, ¿eres realmente consciente del efecto que tiene el
+          azúcar en tus dientes? Aunque el refrán pueda ser verdad y a todos nos
+          atraigan los sabores dulzones, lo cierto es que el consumo excesivo de
+          azúcar puede tener consecuencias importantes para nuestra salud
+          general y bucodental.
+        </p>
+        <p class="read-more">
+          <a
+            href="https://www.teeth22.com/blog/odontologia/efecto-azucar-dientes/"
+            >Ver artículo</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="blog-card alt">
+      <div class="meta">
+        <div
+          class="photo"
+          style="background-image: url(images/sustancia.jpg)"
+        ></div>
+        <ul class="details">
+          <li class="author"><a href="#">Abadental</a></li>
+          <li class="date">nov. 19, 2021</li>
+          <li class="tags">
+            <ul>
+              <li><a href="#">Leer más</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>6 Sustancias que manchan los dientes</h1>
+        <h2>ARTICULOS SOBRE ODONTOLOGIA</h2>
+        <p>
+          Ya te hemos hablado antes acerca de los alimentos que favorecen la
+          salud de los dientes y te hemos dado consejos de cuidado después de un
+          blanqueamiento dental. Ahora, en esta nueva entrada de nuestro blog,
+          queremos hablarte de un tema que está relacionado y que suele
+          preocupar a los pacientes: las sustancias que manchan los dientes y
+          que debemos evitar o consumir con moderación.
+        </p>
+        <p class="read-more">
+          <a
+            href="https://www.teeth22.com/blog/odontologia/sustancias-que-manchan-los-dientes/"
+            >Ver artículo</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="blog-card">
+      <div class="meta">
+        <div
+          class="photo"
+          style="background-image: url(images/ayuda.jpg)"
+        ></div>
+        <ul class="details">
+          <li class="author"><a href="#">Abadental</a></li>
+          <li class="date">Nov. 19, 2021</li>
+          <li class="tags">
+            <ul>
+              <li><a href="#">Leer más</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>7 alimentos que favorecen la salud de los dientes</h1>
+        <h2>ARTICULOS SOBRE ODONTOLOGIA</h2>
+        <p>
+          Acudimos a revisiones odontológicas periódicamente, nos cepillamos los
+          dientes por lo menos tres veces al día y hacemos un buen uso del hilo
+          dental. Pero hay una cuestión importante que muchas veces se nos
+          olvida: también podemos cuidar nuestros dientes a través de la comida.
+        </p>
+        <p class="read-more">
+          <a
+            href="https://www.teeth22.com/blog/odontologia/alimentos-que-favorecen-la-salud-de-los-dientes/ "
+            >Ver artículo</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--  cards -->
+
+    <h2 id="servicios">Nuestros servicios</h2>
+    <section id="servi">
+      <div class="cards">
+        <p class="text-servicios">
+          Ofrecemos servicios en Odontología, con propuestas y tendencias
+          modernas ocupando la tecnología avanzada para satisfacer las
+          necesidades y demandas de nuestros clientes.
+        </p>
+        <div class="card">
+          <img src="images/examen.png" alt="" />
+          <p class="title-card">EXAMEN BUCODENTAL</p>
+          <p class="text-card">
+            El examen bucal inicial incluye un examen dental, un diagnóstico y
+            las recomendaciones correspondientes al tratamiento. Se pueden
+            realizar durante el procedimiento radiografías para obtener un
+            diagnóstico adecuado de los dientes.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/extraccion.png" alt="" />
+          <p class="title-card">EXTRACCIONES DENTALES</p>
+          <p class="text-card">
+            La mayoría de las personas necesitan al menos un empaste dental
+            durante su vida. Generalmente se utilizan con mayor frecuencia para
+            tratar las caries, aunque también son utilizados para reparar
+            dientes agrietados o rotos.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/ortodoncia.png" alt="" />
+          <p class="title-card">SERVICIOS DE ORTODONCIA</p>
+          <p class="text-card">
+            En muchas Clínicas Dentales se ofrece también el servicio de
+            ortodoncia para que el paciente logre obtener una mejor estética
+            dental y para que corrija problemas de mordida que pueden afectar su
+            salud en general.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/blanqueamiento.png" alt="" />
+          <p class="title-card">BLANQUEAMIENTO BUCAL</p>
+          <p class="text-card">
+            Este es uno de los procedimientos que los clientes buscan con mayor
+            frecuencia, son procedimientos no invasivos que ayudan a eliminar
+            las manchas y a recuperar el color natural de los dientes, lo ideal
+            es hacerlo una vez al año.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--galeria de imagenes-->
+    <section class="galeria">
+      <div class="container-galeria">
+        <div class="carousel">
+          <input type="radio" name="slides" checked="checked" id="slide-1" />
+          <input type="radio" name="slides" id="slide-2" />
+          <input type="radio" name="slides" id="slide-3" />
+          <input type="radio" name="slides" id="slide-4" />
+          <input type="radio" name="slides" id="slide-5" />
+          <input type="radio" name="slides" id="slide-6" />
+          <ul class="carousel__slides">
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="images/galeria1.jpg" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Tim Marshall</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="images/galeria2.jpg" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Christian Joudrey</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="images/galeria3.jpg" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Steve Carter</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="images/galeria4.jpg" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Aleksandra Boguslawska</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="images/galeria5.jpg" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Rosan Harmens</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="images/galeria6.jpg" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Annie Spratt</span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul class="carousel__thumbnails">
+            <li>
+              <label for="slide-1"
+                     ><img src="images/galeria1.jpg" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-2"
+                     ><img src="images/galeria2.jpg" alt=""
+              /></label>
+            </li>
+            <li>
+              <label  for="slide-3"
+                     ><img src="images/galeria3.jpg" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-4"
+
+                     ><img src="images/galeria4.jpg" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-5"
+
+                     ><img src="images/galeria5.jpg" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-6"
+                     ><img src="images/galeria6.jpg" alt=""
+              /></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--testimonios-->
+    <div
+      style="
+        width: 960px;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+      "
+    >
+      <h1>"El mejor consultorio"</h1>
+      <div class="testimonial-quote group">
+        <img src="images/persona1.jpg" />
+        <div class="quote-container">
+          <blockquote>
+            <p>
+              Un trato y una profesionalidad muy buenos. Fui atendito por
+              Fátima, la dueña de la clínica, y todo fenomenal. No vivo en la
+              zona, pero me habían recomendado venir aquí y han ganado un
+              cliente. La amabilidad es lo primero que te hace querer volver a
+              un sitio y además no he tenido ningún problema con mi tratamiento.
+              ¡Totalmente recomendable!”
+            </p>
+          </blockquote>
+          <cite
+            ><span>ANGEL LUI BAQUE</span><br />
+            Santo Domingo<br />
+          </cite>
+        </div>
+      </div>
+
+      <hr style="margin: 60px auto; opacity: 0.5" />
+
+      <h1>"Exelente servio"</h1>
+      <div class="testimonial-quote group right">
+        <img src="images/persona2.jpg" />
+        <div class="quote-container">
+          <div>
+            <blockquote>
+              <p>
+                Ya he ido en varias ocasiones, y me han solucionado
+                perfectamente el problema. Trabajan muy bien , son excelentes
+                profesionales. Simplemente, un 10. Clínica dental recomendable”
+              </p>
+            </blockquote>
+            <cite
+              ><span>ALVIA ESTEVEN</span><br />
+              El Carmen<br />
+            </cite>
+          </div>
+        </div>
+      </div>
+
+      <hr style="margin: 60px auto; opacity: 0.5" />
+    </div>
+    <!-- formulatio contacto -->
+
+    <div id="contacto">
+      <p class="title-contact">
+        ¿Quieres agendar? Hazlo ya!
+        <small>Consulta fechas y horarios ahora mismo</small>
+      </p>
+      <section class="contact-wrap">
+        <form action="" class="contact-form">
+          <div class="col-sm-6">
+            <div class="input-block">
+              <label for="">Nombre</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="input-block">
+              <label for="">Apellido</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block">
+              <label for="">E mail</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block">
+              <label for="">Asunto</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block textarea">
+              <label for="">Escribe tu mensaje aquí</label>
+              <textarea rows="3" type="text" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <button class="square-button">Send</button>
+          </div>
+        </form>
+      </section>
+      <div class="made-with-love">Gracias por tu mensaje!</div>
+    </div>
+
+    <!-- JS formulario contacto -->
+
+    <script>
+      $(".contact-form")
+        .find(".form-control")
+        .each(function () {
+          var targetItem = $(this).parent();
+          if ($(this).val()) {
+            $(targetItem).find("label").css({
+              top: "10px",
+              fontSize: "14px",
+            });
+          }
+        });
+      $(".contact-form")
+        .find(".form-control")
+        .focus(function () {
+          $(this).parent(".input-block").addClass("focus");
+          $(this).parent().find("label").animate(
+            {
+              top: "10px",
+              fontSize: "14px",
+            },
+            300
+          );
+        });
+      $(".contact-form")
+        .find(".form-control")
+        .blur(function () {
+          if ($(this).val().length == 0) {
+            $(this).parent(".input-block").removeClass("focus");
+            $(this).parent().find("label").animate(
+              {
+                top: "25px",
+                fontSize: "18px",
+              },
+              300
+            );
+          }
+        });
+    </script>
+
+    <!-- footer -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <img class="foo-logo" src="images/logo-blanco.svg" alt="" />
+        <p class="footer-links">
+          <a href="#inicio" class="link-1">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#contacto">Contacto</a>
+        </p>
+        <p class="footer-company-name">Abadental © 2021</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Av. Siempreviva 742</span> El Carmen, Ecuador</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+956 968 428 443</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:abadental@gmail.com">abadental@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Recuerda que</span>
+          Abadental pretende promover la cultura de la salud bucodental,
+          enseñando y orientando a la sociedad hacia un mejor cuidado de nuestra
+          boca.
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
